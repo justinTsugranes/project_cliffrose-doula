@@ -1,0 +1,19 @@
+export { default as About } from './home-page/about';
+export { default as AllItems } from './posts/all-items';
+export { default as AllProjects } from './projects/all-projects';
+export { default as Brand } from './home-page/brand';
+export { default as Breadcrumb } from './breadcrumb';
+export { default as ContactForm } from './contact/contact-form';
+export { default as FeaturedPost } from './home-page/featured-post';
+export { default as GoogleMap } from './contact/google-map';
+export { default as HeaderOne } from './header/header-1';
+export { default as HeaderTwo } from './header/header-2';
+export { default as Hero } from './home-page/hero';
+export { default as LatestProject } from './home-page/latest-project';
+export { default as Layout } from './layout/layout';
+export { default as PageBanner } from './page-banner/index';
+export { default as PricingTab } from './home-page/pricing-tab';
+export { default as Services } from './home-page/services';
+export { default as Team } from './team';
+export { default as Testimonial } from './home-page/testimonial';
+// export {default as } from './'
