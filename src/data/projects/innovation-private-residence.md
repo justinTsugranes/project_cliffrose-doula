@@ -2,8 +2,8 @@
 title: 'Innovation Private Residence'
 category: 'residenital'
 date: '2022-01-12'
-image: innovation.jpg
-descriptionImg: '1.jpg'
+image: innovation.webp
+descriptionImg: '1.webp'
 excerpt: Suitanable Space
 location: Calle Blancos, Costa Rica
 clientName: Alex Stinson

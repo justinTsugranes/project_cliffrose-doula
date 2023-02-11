@@ -11,7 +11,7 @@ function popularTagPage({ posts, tags, categories }) {
         <>
             <Head>
                 <title>Popular Tags</title>
-                <meta name="description" content="Rustic posts!" />
+                <meta name="description" content="Blog Posts!" />
             </Head>
             <HeaderTwo />
             <Breadcrumb activePage="Posts" pageTitle="Our Posts" />

@@ -1,8 +1,8 @@
 ---
 title: 'Quisque luctus faucibus condimentum'
 date: '2022-01-02'
-image: quisque.jpg
-descriptionImg: 'single-image.jpg'
+image: quisque.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

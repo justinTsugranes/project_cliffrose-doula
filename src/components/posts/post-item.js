@@ -15,30 +15,28 @@ function PostItem({ posts }) {
     return (
         <div className="post-item">
             <Link href={linkPath}>
-                <a>
-                    <div className="post-img block">
-                        <Image
-                            src={imagePath}
-                            alt={posts?.title}
-                            width={374}
-                            height={303}
-                            layout="responsive"
-                            quality={60}
-                            priority
-                        />
+                <div className="post-img block">
+                    <Image
+                        src={imagePath}
+                        alt={posts?.title}
+                        width={374}
+                        height={303}
+                        className="responsive-img"
+                        quality={60}
+                        priority
+                    />
+                </div>
+                <div className="post-content">
+                    <h2 className="mt-6 text-[24px] leading-[34px] transition duration-300 hover:text-[#cbaf71] hover:underline">
+                        {posts?.title}
+                    </h2>
+                    <div className="mt-2 block text-[14px] leading-6 text-[#222]">
+                        {formattedDate} by
+                        <span className="ml-[5px] font-medium text-black">
+                            Admin
+                        </span>
                     </div>
-                    <div className="post-content">
-                        <h2 className="mt-6 text-[24px] leading-[34px] transition duration-300 hover:text-[#cbaf71] hover:underline">
-                            {posts?.title}
-                        </h2>
-                        <div className="mt-2 block text-[14px] leading-6 text-[#222]">
-                            {formattedDate} by
-                            <span className="ml-[5px] font-medium text-black">
-                                Admin
-                            </span>
-                        </div>
-                    </div>
-                </a>
+                </div>
             </Link>
         </div>
     );

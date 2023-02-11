@@ -52,9 +52,7 @@ function HeaderTwo() {
                                         }
                                     >
                                         <Link href="/">
-                                            <a>
-                                                <span>Home</span>
-                                            </a>
+                                            <span>Home</span>
                                         </Link>
                                     </li>
                                     <li
@@ -65,9 +63,7 @@ function HeaderTwo() {
                                         }
                                     >
                                         <Link href="/about">
-                                            <a>
-                                                <span>About</span>
-                                            </a>
+                                            <span>About</span>
                                         </Link>
                                     </li>
                                     <li
@@ -78,9 +74,7 @@ function HeaderTwo() {
                                         }
                                     >
                                         <Link href="/projects">
-                                            <a>
-                                                <span>Projects</span>
-                                            </a>
+                                            <span>Projects</span>
                                         </Link>
                                     </li>
                                     <li
@@ -91,9 +85,7 @@ function HeaderTwo() {
                                         }
                                     >
                                         <Link href="/posts">
-                                            <a>
-                                                <span>Posts</span>
-                                            </a>
+                                            <span>Posts</span>
                                         </Link>
                                     </li>
                                     <li
@@ -104,9 +96,7 @@ function HeaderTwo() {
                                         }
                                     >
                                         <Link href="/contact">
-                                            <a>
-                                                <span>Contact</span>
-                                            </a>
+                                            <span>Contact</span>
                                         </Link>
                                     </li>
                                 </ul>
@@ -153,14 +143,12 @@ function HeaderTwo() {
                             <li className="navbar-toggle flex items-center justify-between pb-[15px]">
                                 <div className="logo" onClick={showOffcanvas}>
                                     <Link href="/">
-                                        <a>
-                                            <Image
-                                                src="/images/logo/logo-2.png"
-                                                alt="Logo"
-                                                width={70}
-                                                height={70}
-                                            />
-                                        </a>
+                                        <Image
+                                            src="/images/logo/logo-2.webp"
+                                            alt="Logo"
+                                            width={70}
+                                            height={70}
+                                        />
                                     </Link>
                                 </div>
                                 <button
@@ -174,11 +162,9 @@ function HeaderTwo() {
                             {OffcanvasData.map((item) => (
                                 <li key={item.id} className={item.cName}>
                                     <Link href={item.path}>
-                                        <a>
-                                            <span onClick={showOffcanvas}>
-                                                {item.title}
-                                            </span>
-                                        </a>
+                                        <span onClick={showOffcanvas}>
+                                            {item.title}
+                                        </span>
                                     </Link>
                                 </li>
                             ))}

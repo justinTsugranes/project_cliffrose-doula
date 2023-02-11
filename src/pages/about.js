@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
+import { sanityClient } from '../lib/sanity.client';
 import {
     HeaderOne,
     Services,
@@ -28,11 +29,22 @@ function AboutPage({ services, testimonialItems, brandItems, teamItems }) {
     );
 }
 
-export function getStaticProps() {
+export async function getStaticProps() {
     const services = getAllItems('services');
+    // const serviceQuery = `*[_type == "service"]`;
+    // const services = await sanityClient.fetch(serviceQuery);
+
     const testimonialItems = getAllItems('testimonial');
-    const brandItems = getAllItems('brands');
+    // const testimonialQuery = `*[_type == "testimonial"]`;
+    // const testimonialItems = await sanityClient.fetch(testimonialQuery);
+
+    // const brandItems = getAllItems('brands');
+    const brandQuery = `*[_type == "brand"]`;
+    const brandItems = await sanityClient.fetch(brandQuery);
+
     const teamItems = getAllItems('teams');
+    // const teamItemsQuery = `*[_type == "teamItems"]`;
+    // const teamItems = await sanityClient.fetch(teamItemsQuery);
 
     return {
         props: {

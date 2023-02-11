@@ -4,7 +4,6 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { Slide } from '../swiper';
 
-// Tailwind related stuff
 const brandImage = `relative opacity-40 grayscale-[100px] transition duration-500 hover:grayscale-[0] hover:opacity-100`;
 
 function Brand({ brandItems, settings }) {
@@ -40,16 +39,14 @@ function Brand({ brandItems, settings }) {
                                 <div className="brand-item">
                                     <div className={brandImage}>
                                         <Link href="#">
-                                            <a>
-                                                <Image
-                                                    src={brandItem?.clientimage}
-                                                    alt={brandItem?.title}
-                                                    width={210}
-                                                    height={90}
-                                                    layout="responsive"
-                                                    quality={70}
-                                                />
-                                            </a>
+                                            <Image
+                                                src={brandItem?.clientimage}
+                                                alt={brandItem?.title}
+                                                width={210}
+                                                height={90}
+                                                className="responsive-img"
+                                                quality={70}
+                                            />
                                         </Link>
                                     </div>
                                 </div>

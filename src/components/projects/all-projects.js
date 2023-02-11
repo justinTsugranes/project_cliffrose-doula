@@ -34,7 +34,7 @@ function AllProjects({ projects: initialProject }) {
                     </button>
                     <button
                         className={`${
-                            currentFilter === 'residenital' ? 'active' : ''
+                            currentFilter === 'residential' ? 'active' : ''
                         } ml-10`}
                         type="button"
                         onClick={onFilterHandler}

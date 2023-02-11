@@ -8,8 +8,7 @@ function ProjectBanner({ title, excerpt, image }) {
                 <Image
                     src={image}
                     alt={title}
-                    layout="fill"
-                    objectFit="cover"
+                    className="fill object-cover"
                     quality={70}
                 />
             </div>

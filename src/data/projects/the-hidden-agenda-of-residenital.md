@@ -2,8 +2,8 @@
 title: 'The Hidden Agenda Of Residenital'
 category: 'residenital'
 date: '2022-01-12'
-image: hidden-agenda.jpg
-descriptionImg: '1.jpg'
+image: hidden-agenda.webp
+descriptionImg: '1.webp'
 excerpt: Residenital
 location: Calle Blancos, Costa Rica
 clientName: Alex Stinson

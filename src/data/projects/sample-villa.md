@@ -2,8 +2,8 @@
 title: 'Sample Villa'
 category: 'commercial'
 date: '2022-01-12'
-image: sample.jpg
-descriptionImg: '1.jpg'
+image: sample.webp
+descriptionImg: '1.webp'
 excerpt: Commercial
 location: Calle Blancos, Costa Rica
 clientName: Alex Stinson

@@ -2,8 +2,8 @@
 title: 'Inspired From China In Web Design'
 category: 'commercial'
 date: '2022-01-12'
-image: inspired.jpg
-descriptionImg: '1.jpg'
+image: inspired.webp
+descriptionImg: '1.webp'
 excerpt: Commercial
 location: Calle Blancos, Costa Rica
 clientName: Alex Stinson

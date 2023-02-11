@@ -14,8 +14,7 @@ function PostBanner({ title, image, date }) {
                 <Image
                     src={image}
                     alt={title}
-                    layout="fill"
-                    objectFit="cover"
+                    className="fill object-cover"
                     priority
                 />
             </div>

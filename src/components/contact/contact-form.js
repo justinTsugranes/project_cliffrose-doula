@@ -25,25 +25,26 @@ function ContactForm({ contactItems }) {
                                 <Link
                                     href={`${contactItems[0]?.contactNumberPath}`}
                                 >
-                                    <a>{contactItems[0]?.contactNumber}</a>
+                                    {contactItems[0]?.contactNumber}
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href={`${contactItems[0]?.contactEmailPath}`}
                                 >
-                                    <a>{contactItems[0]?.contactEmail}</a>
+                                    {contactItems[0]?.contactEmail}
                                 </Link>
                             </li>
                         </ul>
                         <div className="button-wrap pt-[95px]">
-                            <Link href="/contact">
-                                <a className="inline-flex items-center border border-[#969696] p-[11px_32px] text-[14px] uppercase leading-[30px] transition duration-[0.4s] hover:border-black hover:bg-black hover:text-white">
-                                    {contactItems[0]?.infoButtonText}
-                                    <div className="ml-[5px]">
-                                        <AiOutlineRight />
-                                    </div>
-                                </a>
+                            <Link
+                                href="/contact"
+                                className="inline-flex items-center border border-[#969696] p-[11px_32px] text-[14px] uppercase leading-[30px] transition duration-[0.4s] hover:border-black hover:bg-black hover:text-white"
+                            >
+                                {contactItems[0]?.infoButtonText}
+                                <div className="ml-[5px]">
+                                    <AiOutlineRight />
+                                </div>
                             </Link>
                         </div>
                     </div>

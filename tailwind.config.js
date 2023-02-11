@@ -1,5 +1,5 @@
 module.exports = {
-    mode: 'jit',
+    // mode: 'jit',
     content: [
         './src/pages/**/*.{js,ts,jsx,tsx}',
         './src/components/**/*.{js,ts,jsx,tsx}',
@@ -17,10 +17,10 @@ module.exports = {
                 160: '160px',
             },
             backgroundImage: {
-                'pattern-1': "url('/images/background/pattern-1.png')",
-                'page-banner-1': "url('/images/page-banner/1.jpg')",
-                'page-banner-2': "url('/images/page-banner/2.jpg')",
-                'new-post': "url('/images/background/new-post.jpg')",
+                'pattern-1': "url('/images/background/pattern-1.webp')",
+                'page-banner-1': "url('/images/page-banner/1.webp')",
+                'page-banner-2': "url('/images/page-banner/2.webp')",
+                'new-post': "url('/images/background/new-post.webp')",
             },
             animation: {
                 'fade-in-down': 'fadeInDown 3s linear normal',
@@ -86,7 +86,7 @@ module.exports = {
         },
     },
     variants: {
-        extand: {},
+        extend: {},
     },
     plugins: [],
 };

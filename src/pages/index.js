@@ -28,7 +28,7 @@ function HomePage({
                 <title>Cliffrose Doula Care | All Births Are Natural</title>
                 <meta
                     name="description"
-                    content="Rustic - React Business Template is an excellent solution to the web designing needs for your website related to creative agency, business, portfolio, corporate, etc. "
+                    content="description of the business"
                 />
             </Head>
             <HeaderOne />

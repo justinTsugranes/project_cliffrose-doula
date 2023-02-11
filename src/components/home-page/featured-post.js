@@ -10,10 +10,11 @@ function FeaturedPost({ posts }) {
                     <h2 className="text-[32px] lm:text-[42px] lm:leading-[50px]">
                         Editorials
                     </h2>
-                    <Link href="/posts">
-                        <a className="text-[16px] uppercase leading-[24px] text-secondary lm:text-[18px]">
-                            All articles
-                        </a>
+                    <Link
+                        href="/posts"
+                        className="text-[16px] uppercase leading-[24px] text-secondary lm:text-[18px]"
+                    >
+                        All articles
                     </Link>
                 </div>
                 <PostSlider posts={posts} />

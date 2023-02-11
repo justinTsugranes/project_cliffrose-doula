@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import * as FaIcons from 'react-icons/fa';
 import SwiperComps, { Slide } from '../swiper';
 
-// Tailwind Related Stuff
 const heroImage = `relative w-full md:h-[980px] h-[725px] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black before:opacity-30 before:z-[1] before:pointer-events-none overflow-hidden`;
 const heroContent = `absolute sm:w-[calc(100%_-_100px)] left-auto top-1/2 transform translate-y-[-50%] z-[2]`;
 
@@ -33,8 +32,9 @@ function HeroOne({ heroItems, settings }) {
                             <Image
                                 src={heroItem?.image}
                                 alt={heroItem?.title}
-                                layout="fill"
-                                objectFit="cover"
+                                className="fill object-cover"
+                                width={1920}
+                                height={980}
                                 quality={70}
                                 priority
                             />
@@ -47,33 +47,30 @@ function HeroOne({ heroItems, settings }) {
                                             <span>{heroItem?.heroYear}</span>
                                             <ul className="social-box mb-[-140px]">
                                                 <li className="mb-[25px]">
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Twitter"
-                                                        >
-                                                            <TwitterIcon />
-                                                        </a>
+                                                    <Link
+                                                        href="https://example.com/"
+                                                        target="_blank"
+                                                        aria-label="Twitter"
+                                                    >
+                                                        <TwitterIcon />
                                                     </Link>
                                                 </li>
                                                 <li className="mb-[25px]">
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Facebook"
-                                                        >
-                                                            <FacebookIcon />
-                                                        </a>
+                                                    <Link
+                                                        href="https://example.com/"
+                                                        target="_blank"
+                                                        aria-label="Facebook"
+                                                    >
+                                                        <FacebookIcon />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Google"
-                                                        >
-                                                            <GoogleIcon />
-                                                        </a>
+                                                    <Link
+                                                        href="https://example.com/"
+                                                        target="_blank"
+                                                        aria-label="Google"
+                                                    >
+                                                        <GoogleIcon />
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -93,17 +90,18 @@ function HeroOne({ heroItems, settings }) {
                                             }}
                                         />
                                         <div className="hero-slidedown delay-[1200ms]">
-                                            <Link href="/about">
-                                                <a className="boxed-btn text-[18px] leading-[30px]">
-                                                    More About Us
-                                                </a>
+                                            <Link
+                                                href="/about"
+                                                className="boxed-btn text-[18px] leading-[30px]"
+                                            >
+                                                More About Us
                                             </Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="info absolute bottom-[100px] right-auto z-[2] text-[14px] uppercase text-white transition-all hover:text-primary sm:right-[70px]">
-                                <Link href="tel:+contact@Rustictudio.co">
+                                <Link href="tel:+contact@cliffrosedoula.com">
                                     {heroItem?.heroContactInfo}
                                 </Link>
                             </div>

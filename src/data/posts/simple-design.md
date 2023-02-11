@@ -1,8 +1,8 @@
 ---
 title: 'Print 3d Technology & Simple Design'
 date: '2022-01-02'
-image: simple-design.jpg
-descriptionImg: 'single-image.jpg'
+image: simple-design.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

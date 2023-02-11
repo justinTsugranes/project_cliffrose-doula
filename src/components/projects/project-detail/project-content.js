@@ -18,11 +18,12 @@ function ProjectContent({ project }) {
             <div className="project-upper-box pt-[55px] md:pt-[150px]">
                 <div className="container">
                     <div className="navigation pb-[50px]">
-                        <Link href="/projects">
-                            <a className="flex items-center text-[14px] uppercase leading-6">
-                                <IoMdGrid className="mr-5 text-[20px]" />
-                                Back to Projects
-                            </a>
+                        <Link
+                            href="/projects"
+                            className="flex items-center text-[14px] uppercase leading-6"
+                        >
+                            <IoMdGrid className="mr-5 text-[20px]" />
+                            Back to Projects
                         </Link>
                     </div>
                     <ul className="info grid grid-cols-1 gap-y-3 sm:grid-cols-2 md:grid-cols-3">
@@ -78,7 +79,7 @@ function ProjectContent({ project }) {
                             alt={project.alt}
                             width={1170}
                             height={610}
-                            objectFit="cover"
+                            className="object-cover"
                         />
                     </div>
                 </div>

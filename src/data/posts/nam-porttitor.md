@@ -1,8 +1,8 @@
 ---
 title: 'Nam porttitor nulla in commodo ullamcorper'
 date: '2022-01-02'
-image: nam-porttitor.jpg
-descriptionImg: 'single-image.jpg'
+image: nam-porttitor.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

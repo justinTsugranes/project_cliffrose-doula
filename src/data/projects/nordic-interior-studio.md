@@ -2,8 +2,8 @@
 title: 'Nordic Interior Studio'
 category: 'residenital'
 date: '2022-01-12'
-image: nordic.jpg
-descriptionImg: '1.jpg'
+image: nordic.webp
+descriptionImg: '1.webp'
 excerpt: Copper Brass
 location: Calle Blancos, Costa Rica
 clientName: Alex Stinson

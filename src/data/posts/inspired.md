@@ -1,8 +1,8 @@
 ---
 title: 'Inspired From China In Web Design update'
 date: '2022-01-02'
-image: inspired.jpg
-descriptionImg: 'single-image.jpg'
+image: inspired.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

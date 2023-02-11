@@ -87,10 +87,11 @@ function PricingTab({ pricingItems }) {
                                                 )
                                             )}
                                         </ul>
-                                        <Link href="/about">
-                                            <a className="boxed-outline-btn">
-                                                Get Started Now
-                                            </a>
+                                        <Link
+                                            href="/about"
+                                            className="boxed-outline-btn"
+                                        >
+                                            Get Started Now
                                         </Link>
                                     </div>
                                 );
@@ -142,10 +143,11 @@ function PricingTab({ pricingItems }) {
                                                 )
                                             )}
                                         </ul>
-                                        <Link href="/about">
-                                            <a className="boxed-outline-btn">
-                                                Get Started Now
-                                            </a>
+                                        <Link
+                                            href="/about"
+                                            className="boxed-outline-btn"
+                                        >
+                                            Get Started Now
                                         </Link>
                                     </div>
                                 );
@@ -155,10 +157,11 @@ function PricingTab({ pricingItems }) {
                 </div>
                 <div className="contact-info pt-[55px] text-center text-[18px] leading-[1.4] text-secondary">
                     Do you have something else in mind?
-                    <Link href="/contact">
-                        <a className="m-[5px] text-[#0099ff] underline">
-                            Contact us
-                        </a>
+                    <Link
+                        href="/contact"
+                        className="m-[5px] text-[#0099ff] underline"
+                    >
+                        Contact us
                     </Link>
                     for information about more custom packages.
                 </div>

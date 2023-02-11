@@ -28,21 +28,21 @@ function About() {
                             providing architecture, interior & urban design
                             services from concept to completion.
                         </p>
-                        <Link href="/about">
-                            <a className="boxed-btn text-[18px] leading-[30px]">
-                                More About Us
-                            </a>
+                        <Link
+                            href="/about"
+                            className="boxed-btn text-[18px] leading-[30px]"
+                        >
+                            More About Us
                         </Link>
                     </div>
                     <div className={aboutImage}>
                         <Image
-                            src="/images/about/1.jpg"
+                            src="/images/about/1.webp"
                             alt="about graphic"
                             width={390}
                             height={760}
                             quality={70}
-                            layout="fixed"
-                            objectFit="cover"
+                            className="fixed object-cover"
                             priority
                         />
                     </div>

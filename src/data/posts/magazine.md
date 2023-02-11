@@ -1,8 +1,8 @@
 ---
 title: 'Layout & White-Spacing In Design For Magazine'
 date: '2022-01-02'
-image: magazine.jpg
-descriptionImg: 'single-image.jpg'
+image: magazine.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

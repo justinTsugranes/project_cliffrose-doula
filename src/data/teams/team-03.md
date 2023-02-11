@@ -1,7 +1,7 @@
 ---
 id: 'team-03'
 title: Team Member
-image: /images/team/3.jpg
+image: /images/team/3.webp
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'

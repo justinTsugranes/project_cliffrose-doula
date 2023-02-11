@@ -17,6 +17,7 @@ function Team({ teamItems }) {
                         const FacebookIcon = FaIcons[teamItem?.facebookIcon];
                         const InstagramIcon = FaIcons[teamItem?.instagramIcon];
                         const LinkedinIcon = FaIcons[teamItem?.linkedinIcon];
+
                         return (
                             <div
                                 className="fixed-sm:col-span-6 fixed-lm:col-span-6 md:col-span-4"
@@ -25,47 +26,51 @@ function Team({ teamItems }) {
                                 <div className="team-member group overflow-hidden">
                                     <div className={teamMemberImage}>
                                         <Link href="/about">
-                                            <a>
-                                                <Image
-                                                    src={teamItem?.image}
-                                                    alt={teamItem?.title}
-                                                    width={343}
-                                                    height={409}
-                                                    layout="responsive"
-                                                    objectFit="cover"
-                                                    quality={70}
-                                                    priority
-                                                />
-                                            </a>
+                                            {/* <a> */}
+                                            <Image
+                                                src={teamItem?.image}
+                                                alt={teamItem?.title}
+                                                width={343}
+                                                height={409}
+                                                layout="responsive"
+                                                objectFit="cover"
+                                                quality={70}
+                                                priority
+                                            />
+                                            {/* </a> */}
                                         </Link>
                                         <div className="team-social-wrap absolute bottom-[15px] right-[-175px] z-[1] duration-500 group-hover:right-[20px]">
                                             <ul className="team-social flex rounded-[2px] bg-white p-[15px] text-[#999999]">
                                                 <li className="mr-[20px] duration-300 hover:text-black">
-                                                    <Link href="https://twitter.com/">
-                                                        <a target="_blank">
-                                                            <TwitterIcon />
-                                                        </a>
+                                                    <Link
+                                                        href="https://twitter.com/"
+                                                        target="_blank"
+                                                    >
+                                                        <TwitterIcon />
                                                     </Link>
                                                 </li>
                                                 <li className="mr-[20px] duration-300 hover:text-black">
-                                                    <Link href="https://facebook.com/">
-                                                        <a>
-                                                            <FacebookIcon />
-                                                        </a>
+                                                    <Link
+                                                        href="https://facebook.com/"
+                                                        target="_blank"
+                                                    >
+                                                        <FacebookIcon />
                                                     </Link>
                                                 </li>
                                                 <li className="mr-[20px] duration-300 hover:text-black">
-                                                    <Link href="https://www.instagram.com/">
-                                                        <a>
-                                                            <InstagramIcon />
-                                                        </a>
+                                                    <Link
+                                                        href="https://www.instagram.com/"
+                                                        target="_blank"
+                                                    >
+                                                        <InstagramIcon />
                                                     </Link>
                                                 </li>
                                                 <li className="duration-300 hover:text-black">
-                                                    <Link href="https://linkedin.com/">
-                                                        <a>
-                                                            <LinkedinIcon />
-                                                        </a>
+                                                    <Link
+                                                        href="https://linkedin.com/"
+                                                        target="_blank"
+                                                    >
+                                                        <LinkedinIcon />
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -73,10 +78,11 @@ function Team({ teamItems }) {
                                     </div>
                                     <div className="team-member-content pt-[25px]">
                                         <h3>
-                                            <Link href="/about">
-                                                <a className="text-[24px] leading-[31px] transition-all hover:text-[#caac6b]">
-                                                    {teamItem?.memberName}
-                                                </a>
+                                            <Link
+                                                href="/about"
+                                                className="text-[24px] leading-[31px] transition-all hover:text-[#caac6b]"
+                                            >
+                                                {teamItem?.memberName}
                                             </Link>
                                         </h3>
                                         <span className="designation mt-[5px] block text-[14px] leading-6 text-secondary">

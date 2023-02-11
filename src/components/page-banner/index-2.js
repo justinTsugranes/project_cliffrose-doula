@@ -5,7 +5,7 @@ function PageBannerTwo() {
                 <div className="grid grid-cols-12">
                     <div className="col-span-2">
                         <div className="year relative text-white">
-                            <span>2022</span>
+                            <span>2023</span>
                         </div>
                     </div>
                     <div className="col-span-10">

@@ -2,8 +2,8 @@
 title: 'Chobham Manor Masterplan'
 category: 'suitanable-space'
 date: '2022-01-12'
-image: chobham.jpg
-descriptionImg: '1.jpg'
+image: chobham.webp
+descriptionImg: '1.webp'
 excerpt: Suitantable Space
 location: Calle Blancos, Costa Rica
 clientName: Alex Stinson

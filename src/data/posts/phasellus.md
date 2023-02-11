@@ -1,8 +1,8 @@
 ---
 title: 'Phasellus auctor vel odio nec malesuada'
 date: '2022-01-02'
-image: phasellus.jpg
-descriptionImg: 'single-image.jpg'
+image: phasellus.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

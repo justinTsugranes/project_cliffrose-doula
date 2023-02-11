@@ -10,10 +10,11 @@ function LatestProject({ projects }) {
                     <h2 className="text-[32px] max-sm:mb-[15px] lm:text-[42px] lm:leading-[50px]">
                         Latest Projects
                     </h2>
-                    <Link href="/projects">
-                        <a className="text-[18px] uppercase leading-[24px] text-secondary">
-                            All Projects
-                        </a>
+                    <Link
+                        href="/projects"
+                        className="text-[18px] uppercase leading-[24px] text-secondary"
+                    >
+                        All Projects
                     </Link>
                 </div>
             </div>

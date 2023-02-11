@@ -14,7 +14,7 @@ function Services({ services }) {
                                 Services
                             </span>
                             <h2 className="title mb-[60px] text-[32px] text-black lm:text-[42px] lm:leading-[50px]">
-                                Best solutions for <br /> your dream.
+                                Solutions for <br /> your dream.
                             </h2>
                             <div className="grid max-md:gap-[25px] fixed-md:grid fixed-md:grid-cols-2">
                                 {services?.map((service) => {
@@ -31,12 +31,11 @@ function Services({ services }) {
                                                     </div>
                                                     <div className="content">
                                                         <h3 className="title">
-                                                            <Link href="/projects">
-                                                                <a className="hover:underline">
-                                                                    {
-                                                                        service?.title
-                                                                    }
-                                                                </a>
+                                                            <Link
+                                                                href="/projects"
+                                                                className="hover:underline"
+                                                            >
+                                                                {service?.title}
                                                             </Link>
                                                         </h3>
                                                         <p className="desc">
@@ -54,11 +53,12 @@ function Services({ services }) {
                     <div className="lg:col-span-6">
                         <div className="service-image relative flex h-[679px] w-full justify-end lg:h-full">
                             <Image
-                                src="/images/service/1.jpg"
+                                src="/images/service/1.webp"
+                                width={875}
+                                height={729}
                                 alt="Service Image"
                                 quality={70}
-                                layout="fill"
-                                objectFit="cover"
+                                className="fill object-cover"
                                 priority
                             />
                         </div>

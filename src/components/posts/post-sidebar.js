@@ -30,32 +30,32 @@ function PostSidebar({ categories, tags }) {
                 </h2>
                 <ul className="post-list">
                     <li className="mb-[15px]">
-                        <Link href="/posts/magazine">
-                            <a className="hover:underline">
-                                Layout & White-Spacing In Design For Magazine
-                            </a>
+                        <Link
+                            href="/posts/magazine"
+                            className="hover:underline"
+                        >
+                            Layout & White-Spacing In Design For Magazine
                         </Link>
                     </li>
                     <li className="mb-[15px]">
-                        <Link href="/posts/sketch-pillow">
-                            <a className="hover:underline">
-                                Look At The Sketch Pillow Unique By Scarlet
-                                Johanson
-                            </a>
+                        <Link
+                            href="/posts/sketch-pillow"
+                            className="hover:underline"
+                        >
+                            Look At The Sketch Pillow Unique By Scarlet Johanson
                         </Link>
                     </li>
                     <li className="mb-[15px]">
-                        <Link href="/posts/quisque">
-                            <a className="hover:underline">
-                                Visual Strategy Marketing
-                            </a>
+                        <Link href="/posts/quisque" className="hover:underline">
+                            Visual Strategy Marketing
                         </Link>
                     </li>
                     <li>
-                        <Link href="/posts/simple-design">
-                            <a className="hover:underline">
-                                Summer Colorful Festival 2022
-                            </a>
+                        <Link
+                            href="/posts/simple-design"
+                            className="hover:underline"
+                        >
+                            Summer Colorful Festival 2022
                         </Link>
                     </li>
                 </ul>
@@ -67,10 +67,11 @@ function PostSidebar({ categories, tags }) {
                 <ul className="post-list">
                     {categories.map((category) => (
                         <li className="mb-[15px] last:mb-0" key={category}>
-                            <Link href={`/category/${category}`}>
-                                <a className="capitalize hover:underline">
-                                    {category}
-                                </a>
+                            <Link
+                                href={`/category/${category}`}
+                                className="capitalize hover:underline"
+                            >
+                                {category}
                             </Link>
                         </li>
                     ))}
@@ -83,8 +84,11 @@ function PostSidebar({ categories, tags }) {
                 <ul className="post-tags flex flex-wrap">
                     {tags.map((popularTag) => (
                         <li className=" mr-[10px] mb-[5px]" key={popularTag}>
-                            <Link href={`/tag/${popularTag}`}>
-                                <a className="hover:underline">{popularTag},</a>
+                            <Link
+                                href={`/tag/${popularTag}`}
+                                className="hover:underline"
+                            >
+                                {popularTag},
                             </Link>
                         </li>
                     ))}

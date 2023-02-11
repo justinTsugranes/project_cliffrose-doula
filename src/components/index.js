@@ -16,4 +16,3 @@ export { default as PricingTab } from './home-page/pricing-tab';
 export { default as Services } from './home-page/services';
 export { default as Team } from './team';
 export { default as Testimonial } from './home-page/testimonial';
-// export {default as } from './'

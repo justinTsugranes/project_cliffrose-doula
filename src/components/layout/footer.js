@@ -15,7 +15,7 @@ function Footer() {
                         <div className="max-lg:col-span-12">
                             <div className="footer-logo">
                                 <Image
-                                    src="/images/logo/footer-logo.png"
+                                    src="/images/logo/footer-logo.webp"
                                     alt="Logo"
                                     width={70}
                                     height={70}
@@ -31,17 +31,19 @@ function Footer() {
                                         London, NW18JR, Uk
                                     </li>
                                     <li>
-                                        <Link href="mailto:hello@Rusticstudio.co">
-                                            <a className="transition-all hover:text-black">
-                                                info@cliffrosedoula.com
-                                            </a>
+                                        <Link
+                                            href="mailto:contact@cliffrosedoula.com"
+                                            className="transition-all hover:text-black"
+                                        >
+                                            contact@cliffrosedoula.com
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="tel:+0084-912-3548-073">
-                                            <a className="transition-all hover:text-black">
-                                                (+0084) 912-3548-073
-                                            </a>
+                                        <Link
+                                            href="tel:+0084-912-3548-073"
+                                            className="transition-all hover:text-black"
+                                        >
+                                            (+506) 5555-5555
                                         </Link>
                                     </li>
                                 </ul>
@@ -131,10 +133,11 @@ function Footer() {
                                     <div className="mx-1 text-[#f53400]">
                                         <AiIcons.AiFillHeart />
                                     </div>
-                                    <Link href="https://themeforest.net/user/codecarnival/portfolio">
-                                        <a target="_blank">
-                                            <span> misfitDodo Media</span>
-                                        </a>
+                                    <Link
+                                        href="https://themeforest.net/user/codecarnival/portfolio"
+                                        target="_blank"
+                                    >
+                                        <span> misfitDodo Media</span>
                                     </Link>
                                 </div>
                             </div>
@@ -142,27 +145,27 @@ function Footer() {
                                 <ul className="footer-social-link mb-[10px] md:mb-0">
                                     <li>
                                         <Link href="https://twitter.com/">
-                                            <a>Twitter</a>
+                                            Twitter
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://facebook.com/">
-                                            <a>Facebook</a>
+                                            Facebook
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://instagram.com/">
-                                            <a>Instagram</a>
+                                            Instagram
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://tumblr.com/">
-                                            <a>Tumblr</a>
+                                            Tumblr
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://pinterest.com/">
-                                            <a>Pinterest</a>
+                                            Pinterest
                                         </Link>
                                     </li>
                                 </ul>

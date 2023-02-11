@@ -1,8 +1,8 @@
 ---
 title: 'Look At The Sketch Pillow Unique By Scarlet Johanson'
 date: '2022-01-02'
-image: sketch-pillow.jpg
-descriptionImg: 'single-image.jpg'
+image: sketch-pillow.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

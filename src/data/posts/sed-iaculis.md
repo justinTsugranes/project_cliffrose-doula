@@ -1,8 +1,8 @@
 ---
 title: 'Sed iaculis massa est, nec rutrum magna'
 date: '2022-01-02'
-image: sed-iaculis.jpg
-descriptionImg: 'single-image.jpg'
+image: sed-iaculis.webp
+descriptionImg: 'single-image.webp'
 isFeatured: true
 category:
     - all

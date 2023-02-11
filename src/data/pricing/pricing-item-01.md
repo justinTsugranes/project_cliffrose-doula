@@ -15,5 +15,5 @@ annualPricingList:
     - 20 Users
     - Unlimited Dashboard
     - 50 Projects
-    - Custome CSS + HTML
+    - Custom CSS + HTML
 ---

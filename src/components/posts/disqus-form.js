@@ -1,12 +1,12 @@
 import { DiscussionEmbed } from 'disqus-react';
 
 function DisqusForm() {
-    const disqusShortname = 'Rustic';
+    const disqusShortname = 'Cliffrose';
 
     const disqusConfig = {
-        url: 'https://rustic-1.disqus.com/',
+        url: 'https://cliffrose.disqus.com/',
         identifier: '123',
-        title: 'rustic-post',
+        title: 'cliffrose-post',
     };
     return (
         <div className="disqus-form-area pt-[60px]">
