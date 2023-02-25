@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 function PostBanner({ title, image, date }) {
     const formattedDate = new Date(date).toLocaleDateString('en-US', {

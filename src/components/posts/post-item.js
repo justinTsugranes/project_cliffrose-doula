@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 function PostItem({ posts }) {
     const formattedDate = new Date(posts?.date).toLocaleDateString('en-US', {

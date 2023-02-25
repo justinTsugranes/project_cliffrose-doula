@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import * as AiIcons from 'react-icons/ai';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 function Footer() {
     const currentYear = new Date().toLocaleDateString('en-US', {

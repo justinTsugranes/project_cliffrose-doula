@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { IoMdGrid } from 'react-icons/io';
 import ProjectBanner from './project-banner';
 
