@@ -1,10 +1,10 @@
-import { getAllItems } from './items-util';
-import { flatDeep } from '../utils/flatDeep';
+import { getAllItems } from './';
+import { flatDeep } from '../utils';
 
 export const getPostCategories = () => {
-    const posts = getAllItems('posts');
+  const posts = getAllItems('posts');
 
-    const categories = flatDeep(posts.map((post) => post.category));
+  const categories = flatDeep(posts.map((post) => post.category));
 
-    return [...new Set(categories)];
+  return [...new Set(categories)];
 };

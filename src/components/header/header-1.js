@@ -5,8 +5,8 @@ import Image from 'next/image';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 import { OffcanvasData } from './offcanvas-data';
-import WhiteLogo from './white-logo';
 import { logoLogoTwo } from '../../../public';
+import WhiteLogo from './white-logo';
 
 function HeaderOne() {
   const [offcanvas, setOffcanvas] = useState(false);
@@ -14,6 +14,7 @@ function HeaderOne() {
 
   // Header Sticky Activation
   const header = useRef();
+
   useEffect(() => {
     window.addEventListener('scroll', isSticky);
 
@@ -29,7 +30,6 @@ function HeaderOne() {
       ? header.current?.classList.add('is-sticky')
       : header.current?.classList.remove('is-sticky');
   };
-  //   End Here
 
   const router = useRouter();
   const headerCss = `flex lg:justify-between justify-end items-center`;
@@ -113,7 +113,7 @@ function HeaderOne() {
                       width={70}
                       height={70}
                       as="image"
-                      priority={true}
+                      priority
                       loading="eager"
                       style={{
                         maxWidth: '100%',
