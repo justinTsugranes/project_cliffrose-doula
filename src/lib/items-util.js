@@ -26,9 +26,7 @@ export function getItemData(itemIdentifier, type) {
 
 export function getAllItems(type) {
   const itemFiles = getItemsFiles(type);
-
   const allItems = itemFiles.map((itemFile) => getItemData(itemFile, type));
-
   const sortedItems = allItems.sort((itemA, itemB) => (itemA.date > itemB.date ? -1 : 1));
 
   return sortedItems;

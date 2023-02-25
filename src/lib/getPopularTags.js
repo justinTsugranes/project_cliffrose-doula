@@ -1,4 +1,4 @@
-import { getAllItems } from './';
+import { getAllItems } from './items-util';
 import { flatDeep } from '../utils';
 
 export const getPopularTags = () => {
