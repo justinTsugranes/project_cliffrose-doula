@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import * as FaIcons from 'react-icons/fa';
 import PostBanner from './post-banner';
 import PostSidebar from '../post-sidebar';
@@ -33,7 +33,10 @@ function PostContent({ post, categories, tags }) {
                                         width={1170}
                                         height={610}
                                         className="object-cover"
-                                    />
+                                        style={{
+                                            maxWidth: "100%",
+                                            height: "auto"
+                                        }} />
                                 </div>
                                 <div className="content pt-[45px]">
                                     <h2 className="mb-[15px] text-[24px] font-bold leading-[38px]">

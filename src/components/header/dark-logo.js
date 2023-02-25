@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { logoLogoTwo } from '../../../public';
 
 function DarkLogo() {
@@ -13,7 +13,10 @@ function DarkLogo() {
                 as="image"
                 priority
                 loading="eager"
-            />
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
         </Link>
     );
 }

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 import { OffcanvasData } from './offcanvas-data';
@@ -115,6 +115,10 @@ function HeaderOne() {
                       as="image"
                       priority={true}
                       loading="eager"
+                      style={{
+                        maxWidth: '100%',
+                        height: 'auto'
+                      }}
                     />
                   </Link>
                 </div>

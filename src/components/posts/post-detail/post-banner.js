@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function PostBanner({ title, image, date }) {
     const formattedDate = new Date(date).toLocaleDateString('en-US', {
@@ -16,7 +16,10 @@ function PostBanner({ title, image, date }) {
                     alt={title}
                     className="fill object-cover"
                     priority
-                />
+                    style={{
+                        maxWidth: "100%",
+                        height: "auto"
+                    }} />
             </div>
             <div className="container">
                 <div className="content absolute top-1/2 z-[1] -translate-y-1/2 transform">

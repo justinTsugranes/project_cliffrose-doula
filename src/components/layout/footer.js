@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import * as AiIcons from 'react-icons/ai';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function Footer() {
     const currentYear = new Date().toLocaleDateString('en-US', {
@@ -19,7 +19,10 @@ function Footer() {
                                     alt="Logo"
                                     width={70}
                                     height={70}
-                                />
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                         </div>
                         <div className="max-sm:pt-[35px] fixed-lm:col-span-6 fixed-md:col-span-4 fixed-lg:col-span-3">

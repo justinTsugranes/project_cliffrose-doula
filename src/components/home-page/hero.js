@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import * as FaIcons from 'react-icons/fa';
@@ -37,7 +37,10 @@ function HeroOne({ heroItems, settings }) {
                                 height={980}
                                 quality={70}
                                 priority
-                            />
+                                style={{
+                                    maxWidth: "100%",
+                                    height: "auto"
+                                }} />
                         </div>
                         <div className="custom-container container">
                             <div className={heroContent}>

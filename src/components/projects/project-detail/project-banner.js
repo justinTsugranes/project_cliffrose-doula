@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function ProjectBanner({ title, excerpt, image }) {
     return (
@@ -10,7 +10,10 @@ function ProjectBanner({ title, excerpt, image }) {
                     alt={title}
                     className="fill object-cover"
                     quality={70}
-                />
+                    style={{
+                        maxWidth: "100%",
+                        height: "auto"
+                    }} />
             </div>
             <div className="container">
                 <div className="content absolute top-1/2 z-[1] -translate-y-1/2 transform">

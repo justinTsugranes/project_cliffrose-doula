@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 import { OffcanvasData } from './offcanvas-data';
@@ -147,7 +147,10 @@ function HeaderTwo() {
                                         alt="Logo"
                                         width={70}
                                         height={70}
-                                    />
+                                        style={{
+                                            maxWidth: "100%",
+                                            height: "auto"
+                                        }} />
                                 </Link>
                             </div>
                             <button

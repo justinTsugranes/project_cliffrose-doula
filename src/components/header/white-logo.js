@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function WhiteLogo() {
     return (
@@ -9,7 +9,10 @@ function WhiteLogo() {
                 alt="Logo"
                 width={70}
                 height={70}
-            />
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
         </Link>
     );
 }

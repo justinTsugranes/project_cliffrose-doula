@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function PostItem({ posts }) {
     const formattedDate = new Date(posts?.date).toLocaleDateString('en-US', {
@@ -24,7 +24,10 @@ function PostItem({ posts }) {
                         className="responsive-img"
                         quality={60}
                         priority
-                    />
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                 </div>
                 <div className="post-content">
                     <h2 className="mt-6 text-[24px] leading-[34px] transition duration-300 hover:text-[#cbaf71] hover:underline">

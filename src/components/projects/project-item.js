@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function ProjectItem({ project }) {
     const imagePath = `/images/projects/${project?.slug}/${project?.image}`;
@@ -18,7 +18,10 @@ function ProjectItem({ project }) {
                         className="responsive-img object-cover"
                         quality={60}
                         priority
-                    />
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                 </div>
                 <div className="project-content">
                     <span className="project-category">{project?.excerpt}</span>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { IoMdGrid } from 'react-icons/io';
 import ProjectBanner from './project-banner';
 
@@ -80,7 +80,10 @@ function ProjectContent({ project }) {
                             width={1170}
                             height={610}
                             className="object-cover"
-                        />
+                            style={{
+                                maxWidth: "100%",
+                                height: "auto"
+                            }} />
                     </div>
                 </div>
             </div>

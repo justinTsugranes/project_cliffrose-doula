@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from 'next/link';
 import * as FaIcons from 'react-icons/fa';
 
@@ -34,7 +34,10 @@ function Team({ teamItems }) {
                                                 className="responsive-img object-cover"
                                                 quality={70}
                                                 priority
-                                            />
+                                                style={{
+                                                    maxWidth: "100%",
+                                                    height: "auto"
+                                                }} />
                                         </Link>
                                         <div className="team-social-wrap absolute bottom-[15px] right-[-175px] z-[1] duration-500 group-hover:right-[20px]">
                                             <ul className="team-social flex rounded-[2px] bg-white p-[15px] text-[#999999]">
