@@ -136,7 +136,7 @@ function Footer() {
                                     <Link
                                         href="https://themeforest.net/user/codecarnival/portfolio"
                                         target="_blank"
-                                    >
+                                        legacyBehavior>
                                         <span> misfitDodo Media</span>
                                     </Link>
                                 </div>

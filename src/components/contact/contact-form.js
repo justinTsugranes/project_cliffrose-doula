@@ -22,16 +22,12 @@ function ContactForm({ contactItems }) {
                                 {contactItems[0]?.address}
                             </li>
                             <li className="pb-[15px]">
-                                <Link
-                                    href={`${contactItems[0]?.contactNumberPath}`}
-                                >
+                                <Link href={`${contactItems[0]?.contactNumberPath}`} legacyBehavior>
                                     {contactItems[0]?.contactNumber}
                                 </Link>
                             </li>
                             <li>
-                                <Link
-                                    href={`${contactItems[0]?.contactEmailPath}`}
-                                >
+                                <Link href={`${contactItems[0]?.contactEmailPath}`} legacyBehavior>
                                     {contactItems[0]?.contactEmail}
                                 </Link>
                             </li>
@@ -40,7 +36,7 @@ function ContactForm({ contactItems }) {
                             <Link
                                 href="/contact"
                                 className="inline-flex items-center border border-[#969696] p-[11px_32px] text-[14px] uppercase leading-[30px] transition duration-[0.4s] hover:border-black hover:bg-black hover:text-white"
-                            >
+                                legacyBehavior>
                                 {contactItems[0]?.infoButtonText}
                                 <div className="ml-[5px]">
                                     <AiOutlineRight />

@@ -8,7 +8,7 @@ function ProjectItem({ project }) {
 
     return (
         <div className={`project-item gallery-item group ${project?.category}`}>
-            <Link href={linkPath}>
+            <Link href={linkPath} legacyBehavior>
                 <div className="project-img relative before:absolute before:z-[1] before:h-full before:w-full before:bg-black before:opacity-20">
                     <Image
                         src={imagePath}

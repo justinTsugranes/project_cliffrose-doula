@@ -31,10 +31,7 @@ function Services({ services }) {
                                                     </div>
                                                     <div className="content">
                                                         <h3 className="title">
-                                                            <Link
-                                                                href="/projects"
-                                                                className="hover:underline"
-                                                            >
+                                                            <Link href="/projects" className="hover:underline" legacyBehavior>
                                                                 {service?.title}
                                                             </Link>
                                                         </h3>

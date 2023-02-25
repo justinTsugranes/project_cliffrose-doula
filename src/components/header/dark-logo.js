@@ -4,7 +4,7 @@ import { logoLogoTwo } from '../../../public';
 
 function DarkLogo() {
     return (
-        <Link href="/" className="inline-block align-middle leading-[1]">
+        <Link href="/" className="inline-block align-middle leading-[1]" legacyBehavior>
             <Image
                 src={logoLogoTwo}
                 alt="Logo"

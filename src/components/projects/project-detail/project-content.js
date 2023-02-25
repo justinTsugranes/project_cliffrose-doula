@@ -21,7 +21,7 @@ function ProjectContent({ project }) {
                         <Link
                             href="/projects"
                             className="flex items-center text-[14px] uppercase leading-6"
-                        >
+                            legacyBehavior>
                             <IoMdGrid className="mr-5 text-[20px]" />
                             Back to Projects
                         </Link>

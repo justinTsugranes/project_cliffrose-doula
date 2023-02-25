@@ -17,7 +17,7 @@ function PostPageNavigation(props) {
                         style={{
                             backgroundImage: `url('/images/posts/${`${prevPost?.slug}/${prevPost?.image}`}')`,
                         }}
-                    />
+                        legacyBehavior />
                     <Link
                         href={`/posts/${nextPost?.slug}`}
                         className={`next relative z-[1] flex justify-center bg-cover bg-center bg-no-repeat py-[50px] text-right before:absolute before:top-0 before:left-0 before:z-[-1] before:h-full before:w-full before:bg-black before:opacity-60 ${

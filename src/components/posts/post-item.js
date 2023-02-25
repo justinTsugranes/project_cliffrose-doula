@@ -14,7 +14,7 @@ function PostItem({ posts }) {
 
     return (
         <div className="post-item">
-            <Link href={linkPath}>
+            <Link href={linkPath} legacyBehavior>
                 <div className="post-img block">
                     <Image
                         src={imagePath}

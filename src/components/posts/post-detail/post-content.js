@@ -58,7 +58,7 @@ function PostContent({ post, categories, tags }) {
                             <ul className="post-share-tags pt-[65px]">
                                 {post.postTags.map((item) => (
                                     <li key={item}>
-                                        <Link href="#">{item}</Link>
+                                        <Link href="#" legacyBehavior>{item}</Link>
                                     </li>
                                 ))}
                             </ul>

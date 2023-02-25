@@ -70,7 +70,7 @@ function PostSidebar({ categories, tags }) {
                             <Link
                                 href={`/category/${category}`}
                                 className="capitalize hover:underline"
-                            >
+                                legacyBehavior>
                                 {category}
                             </Link>
                         </li>
@@ -84,10 +84,7 @@ function PostSidebar({ categories, tags }) {
                 <ul className="post-tags flex flex-wrap">
                     {tags.map((popularTag) => (
                         <li className=" mr-[10px] mb-[5px]" key={popularTag}>
-                            <Link
-                                href={`/tag/${popularTag}`}
-                                className="hover:underline"
-                            >
+                            <Link href={`/tag/${popularTag}`} className="hover:underline" legacyBehavior>
                                 {popularTag},
                             </Link>
                         </li>

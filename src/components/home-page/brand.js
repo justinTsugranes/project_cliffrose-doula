@@ -38,7 +38,7 @@ function Brand({ brandItems, settings }) {
                             <Slide key={brandItem.id}>
                                 <div className="brand-item">
                                     <div className={brandImage}>
-                                        <Link href="#">
+                                        <Link href="#" legacyBehavior>
                                             <Image
                                                 src={brandItem?.clientimage}
                                                 alt={brandItem?.title}

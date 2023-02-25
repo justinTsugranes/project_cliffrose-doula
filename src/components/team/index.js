@@ -25,7 +25,7 @@ function Team({ teamItems }) {
                             >
                                 <div className="team-member group overflow-hidden">
                                     <div className={teamMemberImage}>
-                                        <Link href="/about">
+                                        <Link href="/about" legacyBehavior>
                                             <Image
                                                 src={teamItem?.image}
                                                 alt={teamItem?.title}
@@ -39,34 +39,22 @@ function Team({ teamItems }) {
                                         <div className="team-social-wrap absolute bottom-[15px] right-[-175px] z-[1] duration-500 group-hover:right-[20px]">
                                             <ul className="team-social flex rounded-[2px] bg-white p-[15px] text-[#999999]">
                                                 <li className="mr-[20px] duration-300 hover:text-black">
-                                                    <Link
-                                                        href="https://twitter.com/"
-                                                        target="_blank"
-                                                    >
+                                                    <Link href="https://twitter.com/" target="_blank" legacyBehavior>
                                                         <TwitterIcon />
                                                     </Link>
                                                 </li>
                                                 <li className="mr-[20px] duration-300 hover:text-black">
-                                                    <Link
-                                                        href="https://facebook.com/"
-                                                        target="_blank"
-                                                    >
+                                                    <Link href="https://facebook.com/" target="_blank" legacyBehavior>
                                                         <FacebookIcon />
                                                     </Link>
                                                 </li>
                                                 <li className="mr-[20px] duration-300 hover:text-black">
-                                                    <Link
-                                                        href="https://www.instagram.com/"
-                                                        target="_blank"
-                                                    >
+                                                    <Link href="https://www.instagram.com/" target="_blank" legacyBehavior>
                                                         <InstagramIcon />
                                                     </Link>
                                                 </li>
                                                 <li className="duration-300 hover:text-black">
-                                                    <Link
-                                                        href="https://linkedin.com/"
-                                                        target="_blank"
-                                                    >
+                                                    <Link href="https://linkedin.com/" target="_blank" legacyBehavior>
                                                         <LinkedinIcon />
                                                     </Link>
                                                 </li>
@@ -78,7 +66,7 @@ function Team({ teamItems }) {
                                             <Link
                                                 href="/about"
                                                 className="text-[24px] leading-[31px] transition-all hover:text-[#caac6b]"
-                                            >
+                                                legacyBehavior>
                                                 {teamItem?.memberName}
                                             </Link>
                                         </h3>

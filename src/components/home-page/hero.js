@@ -51,7 +51,7 @@ function HeroOne({ heroItems, settings }) {
                                                         href="https://example.com/"
                                                         target="_blank"
                                                         aria-label="Twitter"
-                                                    >
+                                                        legacyBehavior>
                                                         <TwitterIcon />
                                                     </Link>
                                                 </li>
@@ -60,7 +60,7 @@ function HeroOne({ heroItems, settings }) {
                                                         href="https://example.com/"
                                                         target="_blank"
                                                         aria-label="Facebook"
-                                                    >
+                                                        legacyBehavior>
                                                         <FacebookIcon />
                                                     </Link>
                                                 </li>
@@ -69,7 +69,7 @@ function HeroOne({ heroItems, settings }) {
                                                         href="https://example.com/"
                                                         target="_blank"
                                                         aria-label="Google"
-                                                    >
+                                                        legacyBehavior>
                                                         <GoogleIcon />
                                                     </Link>
                                                 </li>
@@ -101,13 +101,13 @@ function HeroOne({ heroItems, settings }) {
                                 </div>
                             </div>
                             <div className="info absolute bottom-[100px] right-auto z-[2] text-[14px] uppercase text-white transition-all hover:text-primary sm:right-[70px]">
-                                <Link href="tel:+contact@cliffrosedoula.com">
+                                <Link href="tel:+contact@cliffrosedoula.com" legacyBehavior>
                                     {heroItem?.heroContactInfo}
                                 </Link>
                             </div>
                         </div>
                         <div className="mouse-btn-wrap absolute bottom-[30px] left-1/2 -translate-x-1/2">
-                            <Link href="#about" passHref>
+                            <Link href="#about" passHref legacyBehavior>
                                 <ul className="mouse-btn-down">
                                     <li className="chevron animate-move" />
                                     <li className="chevron animate-move2" />
