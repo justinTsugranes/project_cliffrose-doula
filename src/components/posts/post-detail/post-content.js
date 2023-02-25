@@ -32,7 +32,7 @@ function PostContent({ post, categories, tags }) {
                                         alt={post.alt}
                                         width={1170}
                                         height={610}
-                                        objectFit="cover"
+                                        className="object-cover"
                                     />
                                 </div>
                                 <div className="content pt-[45px]">

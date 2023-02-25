@@ -38,9 +38,9 @@ export async function getStaticProps() {
     // const testimonialQuery = `*[_type == "testimonial"]`;
     // const testimonialItems = await sanityClient.fetch(testimonialQuery);
 
-    // const brandItems = getAllItems('brands');
-    const brandQuery = `*[_type == "brand"]`;
-    const brandItems = await sanityClient.fetch(brandQuery);
+    const brandItems = getAllItems('brands');
+    // const brandQuery = `*[_type == "brand"]`;
+    // const brandItems = await sanityClient.fetch(brandQuery);
 
     const teamItems = getAllItems('teams');
     // const teamItemsQuery = `*[_type == "teamItems"]`;

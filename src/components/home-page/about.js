@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { aboutOne } from '../../../public';
 
 function About() {
     const subTitle = `text-[18px] leading-[32px] text-secondary uppercase`;
@@ -37,12 +38,12 @@ function About() {
                     </div>
                     <div className={aboutImage}>
                         <Image
-                            src="/images/about/1.webp"
+                            src={aboutOne}
                             alt="about graphic"
                             width={390}
                             height={760}
                             quality={70}
-                            className="fixed object-cover"
+                            className=" object-cover"
                             priority
                         />
                     </div>

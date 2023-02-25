@@ -26,18 +26,15 @@ function Team({ teamItems }) {
                                 <div className="team-member group overflow-hidden">
                                     <div className={teamMemberImage}>
                                         <Link href="/about">
-                                            {/* <a> */}
                                             <Image
                                                 src={teamItem?.image}
                                                 alt={teamItem?.title}
                                                 width={343}
                                                 height={409}
-                                                layout="responsive"
-                                                objectFit="cover"
+                                                className="responsive-img object-cover"
                                                 quality={70}
                                                 priority
                                             />
-                                            {/* </a> */}
                                         </Link>
                                         <div className="team-social-wrap absolute bottom-[15px] right-[-175px] z-[1] duration-500 group-hover:right-[20px]">
                                             <ul className="team-social flex rounded-[2px] bg-white p-[15px] text-[#999999]">
